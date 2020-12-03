@@ -1,5 +1,5 @@
 # RL-PC-Cleaning
-Open source for the RL-assisted PC cleaning scheme. We propose to mitigate the tail latency of PC cleaning of the DM-SMR drive by using reinforcement learning technology. Specifically, we build a real-time lightweight Q-learning model to analyze the idle window of I/O workloads, based on which PC cleaning is judiciously scheduled, thereby maximally utilizing the I/O idle window and effectively hiding the tail latency from regular requests. In this project, we implement the controller of the DM-SMR drive as an *Linux device mapper target*, which enables you to conduct the experiments and test your design strategies based on a real conventional HDD disk.
+Open source for the RL-assisted PC cleaning scheme. We propose to mitigate the tail latency of PC cleaning of the DM-SMR drive by using reinforcement learning technology. Specifically, we build a real-time lightweight Q-learning model to analyze the idle window of I/O workloads, based on which PC cleaning is judiciously scheduled, thereby maximally utilizing the I/O idle window and effectively hiding the tail latency from regular requests. In this project, we implement the controller of the DM-SMR drive as an *Linux device mapper target*, which enables you to conduct the experiments and test your design strategies based on a real conventional HDD disk with this prototype.
 
 
 ### Run:

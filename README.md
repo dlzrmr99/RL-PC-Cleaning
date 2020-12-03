@@ -6,8 +6,8 @@ Open source for the RL-assisted PC cleaning scheme. We propose to mitigate the t
 1. Compile the whole project and generate the driver module.
 2. Insert the driver module.
 3. Create a simulated SMR disk.
-4. Perform the block I/O workload and set up the *btt* tool.
-5. Analyze the collected data and get the latency information.
+4. Perform the block I/O workload and set up the *blktrace* tool.
+5. Analyze the collected data using *blkparse & btt* tool and get the latency information.
 
 
 ### Notes: 
